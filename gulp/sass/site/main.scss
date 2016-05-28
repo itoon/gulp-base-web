@@ -1,0 +1,15 @@
+html,body{
+	padding: 0;
+	margin: 0;
+}
+._ab{
+	position: absolute;
+}
+.section1{
+	min-height: 802px;
+	transform: skew(0deg, 50deg);		
+}
+.section1::before{
+	transform: skew(0deg, 23deg);		
+	background: red;
+}
